@@ -89,22 +89,25 @@ wezterm.on(
 
 
 return {
-  window_decorations           = "RESIZE",
-  native_macos_fullscreen_mode = true,
-  tab_max_width                = 60,
-  enable_scroll_bar            = true,
-  color_scheme                 = "rose-pine",
-  window_background_opacity    = 0.94,
-  exit_behavior                = "Close",
-  font_size                    = 13,
+  window_decorations                         = "RESIZE",
+  native_macos_fullscreen_mode               = true,
+  tab_max_width                              = 60,
+  enable_scroll_bar                          = true,
+  color_scheme                               = "rose-pine",
+  window_background_opacity                  = 0.94,
+  exit_behavior                              = "Close",
+  font_size                                  = 13,
   -- 此处可配置终端字体
-  font                         = wezterm.font("Hack"),
-  colors                       = colors,
-  window_frame                 = window_frame, -- needed only if using fancy tab
-  window_padding               = { left = 10, right = 10, top = 10, bottom = 10 },
-  launch_menu                  = launch_menu,
+  font                                       = wezterm.font("Hack"),
+  colors                                     = colors,
+  window_frame                               = window_frame, -- needed only if using fancy tab
+  window_padding                             = { left = 10, right = 10, top = 10, bottom = 10 },
+  launch_menu                                = launch_menu,
+  enable_tab_bar                             = true,
+  show_tab_index_in_tab_bar                  = false,
+  adjust_window_size_when_changing_font_size = false,
+  mouse_bindings                             = mouse_bindings,
+  default_prog                               = default_prog,
+  harfbuzz_features                          = { "calt=0", "clig=0", "liga=0" },
 
-  mouse_bindings    = mouse_bindings,
-  default_prog      = default_prog,
-  harfbuzz_features = { "calt=0", "clig=0", "liga=0" }
 }
