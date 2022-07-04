@@ -96,9 +96,9 @@ return {
   color_scheme                               = "rose-pine",
   window_background_opacity                  = 0.94,
   exit_behavior                              = "Close",
-  font_size                                  = 13,
+  font_size                                  = 12,
   -- 此处可配置终端字体
-  font                                       = wezterm.font("Hack"),
+  -- font                                       = wezterm.font("Hack"),
   colors                                     = colors,
   window_frame                               = window_frame, -- needed only if using fancy tab
   window_padding                             = { left = 10, right = 10, top = 10, bottom = 10 },
