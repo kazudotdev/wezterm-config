@@ -94,7 +94,7 @@ return {
   tab_max_width                              = 60,
   enable_scroll_bar                          = true,
   color_scheme                               = "rose-pine",
-  window_background_opacity                  = 0.94,
+  window_background_opacity                  = 0.9,
   exit_behavior                              = "Close",
   font_size                                  = 12,
   -- 此处可配置终端字体
@@ -108,6 +108,6 @@ return {
   adjust_window_size_when_changing_font_size = false,
   mouse_bindings                             = mouse_bindings,
   default_prog                               = default_prog,
-  harfbuzz_features                          = { "calt=0", "clig=0", "liga=0" },
+  harfbuzz_features                          = { "calt=0", "clig=0", "liga=0" }
 
 }
