@@ -73,20 +73,6 @@ local mouse_bindings = {
 
 local default_prog = { "powershell.exe" }
 
-wezterm.on(
-  "update-right-status",
-  function(window)
-    local date = wezterm.strftime("%Y-%m-%d %H:%M:%S ")
-    window:set_right_status(
-      wezterm.format(
-        {
-          { Text = date }
-        }
-      )
-    )
-  end
-)
-
 
 return {
   window_decorations                         = "RESIZE",
