@@ -152,7 +152,7 @@ local mouse_bindings = {
 
 
 function font_with_fallback(name, params)
-  local names = { name, "Hack Nerd Font" }
+  local names = { name, "Input Mono" }
   return wezterm.font_with_fallback(names, params)
 end
 
@@ -214,27 +214,27 @@ return {
 
   exit_behavior                              = "Close",
   font_size                                  = 12,
-  font                                       = font_with_fallback("Hack Nerd Font", {}),
+  font                                       = font_with_fallback("Input Mono", {}),
   font_rules                                 = {
     {
       italic = false,
       intensity = "Normal",
-      font = font_with_fallback("Hack Nerd Font", {})
+      font = font_with_fallback("Input Mono", {})
     },
     {
       italic = false,
       intensity = "Bold",
-      font = font_with_fallback("Hack Nerd Font", {})
+      font = font_with_fallback("Input Mono", {})
     },
     {
       italic = true,
       intensity = "Normal",
-      font = font_with_fallback("Hack Nerd Font", {})
+      font = font_with_fallback("Input Mono", {})
     },
     {
       italic = true,
       intensity = "Bold",
-      font = font_with_fallback("Hack Nerd Font", {})
+      font = font_with_fallback("Input Mono", {})
     }
   },
   colors                                     = {
