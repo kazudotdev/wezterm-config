@@ -152,7 +152,7 @@ local mouse_bindings = {
 
 
 function font_with_fallback(name, params)
-  local names = { name, "Input Mono" }
+  local names = { name, "Fira Code" }
   return wezterm.font_with_fallback(names, params)
 end
 
@@ -214,27 +214,27 @@ return {
 
   exit_behavior                              = "Close",
   font_size                                  = 12,
-  font                                       = font_with_fallback("Input Mono", {}),
+  font                                       = font_with_fallback("Fira Code", {}),
   font_rules                                 = {
     {
       italic = false,
       intensity = "Normal",
-      font = font_with_fallback("Input Mono", {})
+      font = font_with_fallback("Hack", {})
     },
     {
       italic = false,
       intensity = "Bold",
-      font = font_with_fallback("Input Mono", {})
+      font = font_with_fallback("Hack", {})
     },
     {
       italic = true,
       intensity = "Normal",
-      font = font_with_fallback("Input Mono", {})
+      font = font_with_fallback("Hack", {})
     },
     {
       italic = true,
       intensity = "Bold",
-      font = font_with_fallback("Input Mono", {})
+      font = font_with_fallback("Hack", {})
     }
   },
   colors                                     = {
