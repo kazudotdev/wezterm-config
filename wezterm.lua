@@ -219,22 +219,22 @@ return {
     {
       italic = false,
       intensity = "Normal",
-      font = font_with_fallback("Hack", {})
+      font = font_with_fallback("MonoLisa", {})
     },
     {
       italic = false,
       intensity = "Bold",
-      font = font_with_fallback("Hack", {})
+      font = font_with_fallback("MonoLisa", {})
     },
     {
       italic = true,
       intensity = "Normal",
-      font = font_with_fallback("Hack", {})
+      font = font_with_fallback("MonoLisa", {})
     },
     {
       italic = true,
       intensity = "Bold",
-      font = font_with_fallback("Hack", {})
+      font = font_with_fallback("MonoLisa", {})
     }
   },
   colors                                     = {
