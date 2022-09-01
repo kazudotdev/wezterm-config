@@ -194,7 +194,7 @@ wezterm.on(
 )
 
 
-local default_prog = { "powershell.exe" }
+local default_prog = { "C:/Program Files/Git/bin/bash.exe" }
 
 return {
   window_decorations           = "RESIZE",
