@@ -219,22 +219,22 @@ return {
     {
       italic = false,
       intensity = "Normal",
-      font = font_with_fallback("MonoLisa", {})
+      font = font_with_fallback("JetBrainsMono Nerd Font Mono", {})
     },
     {
       italic = false,
       intensity = "Bold",
-      font = font_with_fallback("MonoLisa", {})
+      font = font_with_fallback("JetBrainsMono Nerd Font Mono", {})
     },
     {
       italic = true,
       intensity = "Normal",
-      font = font_with_fallback("MonoLisa", {})
+      font = font_with_fallback("JetBrainsMono Nerd Font Mono", {})
     },
     {
       italic = true,
       intensity = "Bold",
-      font = font_with_fallback("MonoLisa", {})
+      font = font_with_fallback("JetBrainsMono Nerd Font Mono", {})
     }
   },
   colors                                     = {
