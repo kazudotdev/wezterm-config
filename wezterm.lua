@@ -201,20 +201,20 @@ return {
   native_macos_fullscreen_mode = true,
   tab_max_width                = 16,
   enable_scroll_bar            = true,
-  initial_rows                 = 30,
-  initial_cols                 = 100,
-  window_background_opacity    = 0.96,
+  initial_rows                 = 20,
+  initial_cols                 = 80,
+  window_background_opacity    = 0.85,
   window_padding               = {
     left = 5,
     right = 5,
     top = 5,
     bottom = 5
   },
-  text_background_opacity      = 1.0,
+  text_background_opacity      = 1,
 
   exit_behavior                              = "Close",
-  font_size                                  = 12,
-  font                                       = font_with_fallback("Fira Code", {}),
+  font_size                                  = 11,
+  font                                       = font_with_fallback("JetBrainsMono Nerd Font Mono", {}),
   font_rules                                 = {
     {
       italic = false,
